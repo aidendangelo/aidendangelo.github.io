@@ -1,0 +1,337 @@
+title {
+    
+}
+
+.ToC {
+    float : left;
+    color : white;
+    border: outset 10px #800000;
+    position: fixed;
+    width : 140px;
+    padding : 15px;
+}
+.ToC h2 {
+    margin : 0px 5px 5px 2px;
+    padding: 2px;
+    font-size: 26px;
+}
+.ToC li {
+    margin-left: -20px;
+    list-style-image: url("icon_2.png");
+    
+    
+}
+.ToC span {
+    background-image: url("icon_2.png");
+    background-repeat: no-repeat;
+}
+
+.bio {
+    text-align : center;
+    border: inset 7px #800000;
+    float : left;
+    color : white;
+    font-family: Courier, times, Arial;
+    padding: 15px;
+    font-size: 19px;
+    
+}
+
+.bio.align {
+    height :15em;
+    width: 650px;
+    margin : 5px 450px;
+}
+
+body {
+    background-image : url(sky.jpg);
+    color : white;
+    background-size: cover;
+    background-position : right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-width: 50px;
+    max-width: 1920px;
+}
+
+a {
+    color : white;
+    text-decoration : none;
+}
+a:hover {
+    color : #A60808;
+    font-weight: bold;
+    
+}
+/* changes the color in all <div>'s and makes them transparent */
+div {
+    background-color : rgba(72,48,120,0.5);
+}
+
+h1 {
+    color : #FAA148;
+    font-family : cursive, Courier, arial;
+    margin : 0px;
+    text-align : center;
+    border: 5px solid black;
+    border-radius: 5px;
+    position: relative;
+}
+
+/* css section for hobbies */
+.hob {
+    text-align : center;
+    border: inset 7px #800000;
+    float : left;
+    color : white;
+    font-family: Monaco;
+    padding: 10px;
+    font-size: 19px;
+    
+}
+.hob.align {
+    height :260px;
+    width: 659px;
+    margin : 5px 449px;
+}
+/* Css for the favorites section and for list's    */
+.favorite {
+    text-align : center;
+    border: inset 7px #800000;
+    float : left;
+    color : white;
+    font-family: times, Arial, courier;
+    padding: 8px;
+    font-size: 18px;
+    
+}
+.favorite.align {
+    height :35px;
+    width: 664px;
+    margin : 5px 450px;
+}
+
+.favorite h3 {
+    position: relative;
+    bottom: 25px;
+    font-size: 25px;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 19px;
+    font-family: arial black, impact, Arial;
+    color: #07B5A4;
+    position: relative;
+    top: -25px;
+}
+
+#list1 {
+    position: relative;
+    top: -27px;
+    right: 440px;
+    float : left;
+    height :270px;
+    width : 220px;
+    margin : 5px 380px;
+    border: inset 7px #800000;
+}
+
+#anime {
+    list-style:  circle;
+    color : #906090;
+}
+
+#list2 {
+    position: relative;
+    top: -320px;
+    right: 168px;
+    float : left;
+    height :270px;
+    width : 220px;
+    margin : 5px 380px;
+    border: inset 7px #800000;
+}
+
+#games {
+    list-style: square;
+    color: #906090;
+}
+#list3 {
+    position: relative;
+    top: -612px;
+    right: -100px;
+    float : left;
+    height :270px;
+    width : 226px;
+    margin : 5px 380px;
+    border: inset 7px #800000;
+}
+#books {
+    list-style: lower-greek;
+    color : #906090;
+}
+
+.favorite li {
+    position: relative;
+    right: 8px;
+    top: -50px;
+    border-radius: 5px;
+}
+/* css section for profiles */
+.profile {
+    text-align : center;
+    border: inset 7px #800000;
+    float : left;
+    color : white;
+    font-family: tahoma, times, Arial;
+    padding: 10px;
+    font-size: 17px;
+}
+.profile.align {
+    height :100px;
+    width: 660px;
+    margin : 5px 450px;
+    margin-top: 300px;
+}
+.profile li {
+    position: relative;
+    right: 18px;
+    top: -25px;
+    color: rgb(197,164,237);
+    
+}
+.profile span { 
+    color: white;
+}    
+
+#pro {
+    position: relative;
+    right : 25px;
+    top : -25px;
+}
+#list_profile {
+    position: relative;
+    right : 25px;
+    top : -15px;
+    list-style: none;
+}
+/* css section for artwork and images */
+.artwork {
+    text-align : center;
+    border: inset 7px #800000;
+    float : left;
+    color : white;
+    font-family: Book Antiqua, tahoma, Arial;
+    padding: 5px;
+}
+.artwork.align {
+    height :400px;
+    width: 670px;
+    margin : 5px 450px;
+}
+
+
+img {
+    border :5px solid black;
+}
+/* css section for cantact info */
+.contact {
+    border: inset 7px #800000;
+    float : left;
+    color: white;
+    font-family: Arial, times, fantasy;
+    padding : 15px;
+}
+
+.contact.align {
+    height : 320px;
+    width: 650px;
+    margin :438px -1144px; 
+}
+
+.contact h3 {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: -25px;
+}
+.contact li {
+    color: #F584B7;
+    list-style: none;
+}
+.contact span {
+    color:white;
+}
+
+/* css section for projects and download button */
+.projects {
+    float : left;
+    border: inset 7px #800000;
+    color: white;
+    font-family: times, arial, fantasy;
+    padding: 5px;
+    letter-spacing: 3px;
+    
+}
+.projects.align {
+    height: 200px;
+    width: 670px;
+    margin: 375px 450px;
+}
+
+button {
+    background-color: rgba(159,93,125,0.7);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    font-family: impact, arial black, Book Antiqua, Arial;
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 1px;
+    
+}
+
+
+footer {
+    
+    position: fixed;
+    bottom : 0px;
+}
+
+form {
+    position: fixed;
+    right: 2px;
+    top: 100px;
+    font-family: courier, Manaco, Arial;
+
+}
+form input {
+    background-color: rgba(159,93,125,0.7);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    font-family: impact, arial black, Book Antiqua, Arial;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+.user {
+    
+    font-family: times, courier, Arial;
+    
+}
+
+.gaming {
+    position: relative;
+    bottom: 115px;
+    left: 300px;
+}
+#gam {
+    position: relative;
+    right: 5px;
+}
